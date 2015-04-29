@@ -1,25 +1,74 @@
+body {
+	background: rgb(189, 108, 16);
+}
 
-a.navbar-brand {
-	color: blue;
+nav {
+	background-color: black;
 	font-family: 'Damion', cursive;
 	font-size: 36px;
+
+
 }
 
 li {
 	font-family: 'Marck Script', cursive;
 	font-size: 28px;
+	list-style: none;
+	float: left;
+	text-align: center;
+	display: block;
+
+
 }
 
-/*.gradient {
-	background: orange;
-	
-} */
+a {
+	color: white;
+	padding: 5px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+#imageContainer {
+  width: 980px;
+  height: 350px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 4px 4px 7px #292929;
+  margin: 30px auto 0;
+  padding: 10px;
+} 
+
+#carousel {
+	width: 980px;
+	overflow:hidden;
+}
+
+
+#carousel ul {
+	width: 3920px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#carousel ul li {
+	width: 980px;
+	text-align: center;
+	height: 350px;
+	list-style: none;
+	float: left;
+}
+
+
 
 img:hover {
 	opacity: 0.4;
 }
 
-/* #womens {
+ #womens {
+ 	text-align: center;
 	display: inline;
 	position: absolute;
 	bottom: 0; 
@@ -28,10 +77,12 @@ img:hover {
 	font-weight: bold; 
 	color: #fff;
 	padding: 0.5rem;
-} */
+}	
+
 
 #dress1 {
-	margin: 50px;
+	text-align: center;
+	margin-left: 150px;
 	padding: 20px;
 	float: left;
 	width: 400px;
@@ -39,7 +90,8 @@ img:hover {
 }
 
 #menscover {
-	margin: 50px;
+	text-align: center;
+	margin-right: 150px;
 	padding: 20px;
 	float: right;
 	width: 400px;
@@ -47,6 +99,7 @@ img:hover {
 }
 
 #accessories {
+	text-align: center;
 	float: center;
 	margin: 40px;
 	padding: 10px;
