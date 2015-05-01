@@ -31,5 +31,11 @@ $(window).load(function(){
         //use fadeTo to hide the div  
         $(this).children('.description').stop().fadeTo(500, 0);  
     });  
+
+
+    $('form').submit(function(event) {
+    event.preventDefault()
+    $(event.target).find('.thanks').show();
+    });
   
 });  

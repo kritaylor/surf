@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href= 'icomoon/style.css' rel= 'stylesheet' type='text/css'>  
     <link rel='stylesheet' type='style/text' href="index.css">
-  <style type="text/css">
+    <style type="text/css">
     body {
       background: rgb(189, 108, 16);
     } 
@@ -30,13 +31,12 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="womens.html">Women's</a></li>
-            <li><a href="#">Men's</a></li>
+            <li><a href="mens.html">Men's</a></li>
             <li><a href="#">Accessories</a></li>
           </ul>
         </div>
       </div>
     </nav>
-
   </div>       
 
 <div id="imageContainer">
@@ -61,12 +61,14 @@
    <img src= "images/accessories.jpg" alt="accessories" id="accessories"> 
    </a> 
  </div>  
+ 
 
-
-
-
-<footer> 
-        <div>
+<div id='main-footer'>        
+      <footer>
+        <class="active"><a href="index.html">Home</a> | <a href=" ">Women's</a> | <a href=" ">Women's Accessories</a> | <a href=" ">Men's Accessories</a> <br/><br/>
+            10 Surf Side Street | SunnyVale, CA, 90120
+        <p> &copy; Copyright 2015</p>
+      <div>
           <form> 
             <input type="email" text="Email" value placeholder= 'Email' >
             <select name= "Gender" value placeholder= "Gender">
@@ -74,11 +76,17 @@
               <option value="Male"> Male </option>
               <option value="I'd rather not say"> I'd rather not say </option> 
             </select>
-            <input type= "submit" value= "Submit">  
-
+            <input id="submit" type= "submit" value= "Submit">  
             <span class="thanks"> Thank you! </span>
           </form>   
         </div>  
-      </footer>      
+         <div class="social-media"> 
+          <span class="icon icon-facebook3"></span>
+          <span class="icon icon-instagram"></span>
+          <span class="icon icon-twitter3"></span>
+        </div>  
+      </footer> 
+    </div>
+</div>        
 </body>
 </html>
