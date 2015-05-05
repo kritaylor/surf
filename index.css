@@ -23,7 +23,9 @@ a {
 	padding: 5px;
 }
 
-
+.narbar-brand {
+	font-size: 100px;
+}
 
 #imageContainer {
   width: 1000px;
@@ -121,30 +123,36 @@ input#submit:hover {
 	display: none;
 }
 
-.social-media {
-	color: white;
-}
-
 .icon-facebook3:before {
     content: "\ea8e";
+    color: rgb(189, 108, 16);
 
 }
 
 .icon-instagram:before {
     content: "\ea90";
-
+    color: rgb(189, 108, 16);
 }
 
 .icon-twitter3:before {
     content: "\ea93";
-
+    color: rgb(189, 108, 16);
 }
 
 footer {
-  width: auto;
-  border: 1px solid black;
-  background-color: black;
-  height: 100px;
-  text-align: center;
-  color: white;
+	width: auto;
+	border: 1px solid black;
+	background-color: rgba(4, 65, 107, 0.8);
+	height: 100px;
+	text-align: center;
+	color: rgb(189, 108, 16);
+	font-family: 'Damion', cursive;
+	font-size: 20px;
+	padding: 15px;
+	margin-bottom:20px;
+	height: 220px;
+}
+
+footer p {
+	color: rgb(189, 108, 16);
 }
