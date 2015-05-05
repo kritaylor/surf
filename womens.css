@@ -1,5 +1,16 @@
+@media all {
+	.pics {
+		text-align: center;
+		max-width: 200%;
+		max-height: 200%;
+	}
+
+
+}
+
+
 body {
-	background-color: rgba(84, 229, 202, 0.56);
+	background-color: rgba(84, 229, 202, 0.43);
 }
 
 
@@ -36,7 +47,7 @@ a {
 
 .pics {
 	max-width: 524px;
-	max-height: 350px
+	max-height: 350px;
 }
 
 .fill {
@@ -58,9 +69,6 @@ p {
 	margin-left: 30px;
 }
 
-.active {
-	color: black;
-}
 
 input#submit {
 	color: black;
@@ -111,5 +119,7 @@ footer {
 footer p {
 	color: rgb(189, 108, 16);
 }
+
+
 
 
